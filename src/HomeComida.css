@@ -1,0 +1,46 @@
+.card-hover-animation {
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+.card-hover-animation:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.custom-image {
+  width: 100%; /* Ajusta el ancho de la imagen según tus necesidades */
+  height: auto; /* La altura se ajustará automáticamente para mantener la relación de aspecto */
+  margin-top: 5px; 
+  margin-bottom: 5px;
+}
+
+.region-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.bandera {
+  width: 25px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.region-name {
+  margin-left: 10px;
+}
+
+.custom-modal {
+  max-width: 750px; /* Ajusta el ancho máximo del Modal */
+  margin: auto; /* Centra horizontalmente */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; 
+}
+
+.card-img {
+  margin-top: 10px; 
+  margin-bottom: 10px;
+}
